@@ -36,6 +36,9 @@ Plugin 'SirVer/ultisnips'
 " Snippets are separated from the engine. Add this if you want them:
 Plugin 'honza/vim-snippets'
 
+" Color scheme
+Plugin 'NLKNguyen/papercolor-theme'
+
 if !s:at_google
     Plugin 'Valloric/YouCompleteMe'
 endif
@@ -100,7 +103,9 @@ endif
 syntax on
 
 " Set the colorscheme
-colorscheme desert
+set t_Co=256 " This may or may not be needed.
+set background=dark
+colorscheme PaperColor
 
 " Size of a hard tabstop
 set tabstop=2
