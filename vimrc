@@ -142,6 +142,7 @@ set number
 
 " Map for opening NerdTree with current file.
 nmap ,m :NERDTreeFind<CR>
+nmap m, :NERDTreeFind<CR>
 
 " Set default window size for nerdtree
 let g:NERDTreeWinSize=35
